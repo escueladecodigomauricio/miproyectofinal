@@ -1,0 +1,67 @@
+body{
+    background-color: burlywood;
+}
+.header{
+    background-color: lightgray;
+    text-align: center;
+    padding: 1em;
+    width: 90%;
+    margin: auto;
+}
+.navbar{
+    width: 90%;
+    margin: 2vh auto;
+}
+.contenido{
+    width: 90%;
+    margin: 5vh auto;
+    text-align: justify;
+}
+
+a:link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+    padding: .5em 2em;
+    margin: .5em 0em;
+    color: black;
+}
+a:visited{
+    color: royalblue;
+}
+a:hover{
+    border-bottom: 3px solid red;
+}
+a:active{
+    font-size: x-large;
+    font-weight: bolder;
+}
+table, th, td{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+table{
+    width: 50%;
+    margin: 100px auto;
+    background-color: darkkhaki;
+    border-spacing: 2em 1em;
+}
+th, td{
+    text-align: center;
+}
+.card{
+    float: left;
+    border: 2px solid gray;
+    width: 25vw;
+    height: 25vw;
+    padding: 1em;
+    margin: 1em;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 15px;
+}
+.card img{
+    width:90%;
+    display: block;
+    margin: auto;
+}
